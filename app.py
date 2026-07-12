@@ -148,7 +148,9 @@ html, body, [class*="css"] {{
 }}
 
 .wishlist-row {{
+    color: white;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     background: rgba(0,0,0,.9);
