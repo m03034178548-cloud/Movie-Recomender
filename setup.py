@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 from setuptools import setup, find_packages
 
-AUTHOR_NAME = "RAZA_CHEETA, AHMAD_KHAN"
+AUTHOR_NAME = "RAZA_CHEETA"
 LIST_OF_REQUIREMENTS = ["streamlit"]
 
 setup(
@@ -16,11 +16,17 @@ setup(
     python_requires=">=3.7",
     install_requires=LIST_OF_REQUIREMENTS,
 )
-=======
+
 from setuptools import setup, find_packages
 
-AUTHOR_NAME = "RAZA_CHEETA, AHMAD_KHAN"
-LIST_OF_REQUIREMENTS = ["streamlit"]
+AUTHOR_NAME = "RAZA_CHEETA"
+LIST_OF_REQUIREMENTS = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "requests",
+]
 
 setup(
     name="movie_recommender",
@@ -34,4 +40,3 @@ setup(
     python_requires=">=3.7",
     install_requires=LIST_OF_REQUIREMENTS,
 )
->>>>>>> 9759e12cef8a95e7253c3c2ffa7fbef62268bf90
