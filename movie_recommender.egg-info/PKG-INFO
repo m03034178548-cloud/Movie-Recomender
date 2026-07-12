@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Metadata-Version: 2.4
 Name: movie_recommender
 Version: 0.0.1
@@ -16,3 +17,23 @@ Dynamic: requires-python
 Dynamic: summary
 
 Movie recommender package
+=======
+Metadata-Version: 2.4
+Name: movie_recommender
+Version: 0.0.1
+Summary: A small example package for movies recommendation
+Author: RAZA_CHEETA, AHMAD_KHAN
+Author-email: murshadraza11@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Movie recommender package
+>>>>>>> 9759e12cef8a95e7253c3c2ffa7fbef62268bf90
