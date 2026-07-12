@@ -37,7 +37,7 @@ conn.commit()
 # ---------------- THEME TOGGLE ----------------
 _, col2 = st.columns([9, 1])
 with col2:
-    if st.button("🌙 / ☀"):
+   if st.button("🌙 / ☀", key="theme_toggle_1"):
         st.session_state.theme = (
             "dark" if st.session_state.theme == "light" else "light"
         )
@@ -308,7 +308,7 @@ conn.commit()
 # ---------------- THEME TOGGLE ----------------
 _, col2 = st.columns([9, 1])
 with col2:
-    if st.button("🌙 / ☀"):
+    if st.button("🌙 / ☀", key="theme_toggle_2"):
         st.session_state.theme = (
             "dark" if st.session_state.theme == "light" else "light"
         )
